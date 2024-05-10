@@ -2945,10 +2945,10 @@ MonoBehaviour:
   boltsCount: 0
   neededBoltCount: 3
   move: 0
-  water: {fileID: 1518058833}
-  PActive: {fileID: 1518058833}
-  P1: {fileID: 1518058833}
-  P2: {fileID: 1518058833}
+  water: {fileID: 0}
+  PActive: {fileID: 0}
+  P1: {fileID: 0}
+  P2: {fileID: 0}
 --- !u!1 &949944895
 GameObject:
   m_ObjectHideFlags: 0
@@ -4779,37 +4779,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1518058833
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1518058834}
-  m_Layer: 0
-  m_Name: GameObject (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1518058834
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518058833}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.446488, y: 1.1668191, z: 0.0010684859}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1525040168
 GameObject:
   m_ObjectHideFlags: 0
@@ -6613,7 +6582,7 @@ Transform:
   m_GameObject: {fileID: 2108227693}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.56, y: -4.52, z: 0.03573921}
+  m_LocalPosition: {x: 5.67, y: -4.52, z: 0.03573921}
   m_LocalScale: {x: 0.77019, y: 0.77019, z: 0.77019}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6766,7 +6735,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8155499038582290298, guid: 14b24949bf71f8f4e9fe095289309206, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.75
+      value: -2.45
       objectReference: {fileID: 0}
     - target: {fileID: 8155499038582290298, guid: 14b24949bf71f8f4e9fe095289309206, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6825,4 +6794,3 @@ SceneRoots:
   - {fileID: 436355883}
   - {fileID: 137938475}
   - {fileID: 1092570434}
-  - {fileID: 1518058834}

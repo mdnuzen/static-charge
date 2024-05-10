@@ -20,6 +20,12 @@ public class ItemCollectable: MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             CollectionUI.instance.ChangeScore(boltValue);
+            Debug.Log("Item collected!");
+            Destroy(this.gameObject);
+
+
         }
     }
+
+
 }

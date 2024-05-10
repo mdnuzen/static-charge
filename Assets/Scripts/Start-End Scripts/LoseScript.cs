@@ -10,7 +10,7 @@ public class LoseScript : MonoBehaviour
 	
 	void OnCollisionEnter2D(Collision2D col)
 	{
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
+		SceneManager.LoadScene("LoseScreen");
 	}
 	
 	public void loseGame()

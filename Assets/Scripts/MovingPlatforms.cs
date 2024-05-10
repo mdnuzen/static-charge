@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovingPlatforms : MonoBehaviour
 {
     //public static ActiveButton activeObj;
+    public static MovingPlatforms plat;
     public bool moveOnce;
     public Transform pos1, pos2;
     public float speed;
@@ -12,7 +13,8 @@ public class MovingPlatforms : MonoBehaviour
 
     Vector3 nextPos;
 
-    public bool canMove = false;
+    //public GameObject canMove;
+    public bool canMove;
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +25,17 @@ public class MovingPlatforms : MonoBehaviour
 
     void Update()
     {
+		if(plat == null)
         {
-            MovePlatform();
+            plat = this;
         }
+            MovePlatform();
+        
+    }
 
+    public bool returnBool()
+    {
+        return canMove;
     }
 
    /* // Update is called once per frame
@@ -52,9 +61,9 @@ public class MovingPlatforms : MonoBehaviour
 
         transform.position = Vector3.MoveTowards(transform.position, nextPos, speed * Time.deltaTime);
     }
-
+    /*
     private void OnDrawGizmos()
     {
         Gizmos.DrawLine(pos1.position, pos2.position);
-    }
+    }*/
 }
